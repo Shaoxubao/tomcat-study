@@ -47,9 +47,9 @@ import org.apache.juli.logging.LogFactory;
  * @author Remy Maucherat
  *
  * 启动vm参数：
- * -Dcatalina.home=catalina-home  -Dcatalina.base=catalina-home  -Djava.endorsed.dirs=catalina-home/endorsed
- * -Djava.io.tmpdir=catalina-home/temp  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
- * -Djava.util.logging.config.file=catalina-home/conf/logging.properties -Dfile.encoding=utf-8
+  -Dcatalina.home=catalina-home  -Dcatalina.base=catalina-home  -Djava.endorsed.dirs=catalina-home/endorsed
+  -Djava.io.tmpdir=catalina-home/temp  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+  -Djava.util.logging.config.file=catalina-home/conf/logging.properties -Dfile.encoding=utf-8
  *
  * 启动后访问：http://localhost:8080/
  */
